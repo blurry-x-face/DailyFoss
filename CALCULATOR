@@ -1,0 +1,142 @@
+https://codepen.io/lav_joshi1056/pen/RwwybVb
+
+HTML AND JS
+<html>
+<head>
+<title>calculator</title>
+<script>
+     let insert=function(num)
+     {
+          document.form.aa.value=document.form.aa.value+num
+     }
+
+     let equal=function()
+     {
+          let exp=document.form.aa.value;
+          if(exp)
+          {
+          document.form.aa.value=eval(exp);
+          }
+     }
+     let remove=function()
+     {
+          document.form.aa.value="";
+     }
+     let back=function()
+     {
+          let exp=document.form.aa.value; 
+          document.form.aa.value= exp.substring(0,exp.length-1);   
+     }
+</script>
+<link rel="stylesheet" type="text/css" href="calf.css">
+<div class="login-page">
+        <div class="my">  <p style="font-size:60px  ;">CALCULATOR</p></div>
+  <div class="form">
+        <form name="form">
+                <input class="aa" name="aa" id="aaa">
+            </form>
+    <form class="lform">
+            <div class="lav">
+                    <table>
+                        <tr>
+                            <td colspan="2"><input class="bb" type="button" style="width:140px " value="AC" onclick="remove()"></td>
+                            <td><input class="bb" type="button" value="*" onclick="insert('*')"></td>
+                            <td><input class="bb" style="width:70px;" type="button" value="/" onclick="insert('/')"></td>
+                       </tr>
+                       <tr>
+                            <td><input class="bb" type="button" value="1" onclick="insert(1)"></td>
+                            <td><input class="bb" type="button" value="2" onclick="insert(2)"></td>
+                            <td><input class="bb" type="button" value="3" onclick="insert(3)"></td>
+                            <td><input class="bb" type="button" value="+" onclick="insert('+')"></td>
+                          </tr>
+                          <tr>
+                            <td><input class="bb" type="button" value="4" onclick="insert(4)"></td>
+                            <td><input class="bb" type="button" value="5" onclick="insert(5)"></td>
+                            <td><input class="bb" type="button" value="6" onclick="insert(6)"></td>
+                            <td><input class="bb" style="width:70px;" type="button" value="-" onclick="insert('-')"></td>
+                          </tr>
+                          <tr>
+                            <td><input class="bb" type="button" value="7" onclick="insert(7)"></td>
+                            <td><input class="bb" type="button" value="8" onclick="insert(8)"></td>
+                            <td><input class="bb" type="button" value="9" onclick="insert(9)"></td>
+                            <td><input class="bb" type="button" value="=" onclick="equal()"></td>
+                          </tr>
+                          <tr>
+                            <td><input class="bb" type="button" value="0" onclick="insert(0)"></td>
+                            <td><input class="bb" style="width:65px;" type="button" value="." onclick="insert('.')"></td>
+                            <td colspan="2"><input class="bb" style="width:140px;" type="button" value="back" onclick="back()"></td>
+                            
+                            
+                            </tr>
+           
+                    </table>
+                    </div>
+    </form>
+  </div>
+</div>
+
+</html>
+
+
+
+
+
+CSS
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background:black;
+  max-width: 360px;
+  height:400px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 2px 4px 6px 2px gray;
+ 
+}
+.form input {
+  outline: 0;
+  background:white;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  background:blue;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  
+}
+
+.form .message {
+  margin: 15px 0 0;
+  font-size: 15px;
+}
+.form .message a {
+  color:blue;
+}
+
+.bb
+{
+    padding:20px;
+    margin:2px;
+    color:blue;
+    font-size:40px;
+    border-radius:5px;
+
+}
+.lav
+{
+    background-color:black;
+}
+
