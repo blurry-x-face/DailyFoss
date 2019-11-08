@@ -1,0 +1,145 @@
+https://codepen.io/subhash2807/pen/dyympYd
+
+HTML CODE:
+<!doctype html>
+<html>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+function clck()
+{
+    alert('successfully logined');
+}</script>
+    <link href="cont.css" rel="stylesheet">
+    <head>
+        <title>
+            login form
+        </title>
+    </head>
+    <body>
+        <div id="sg1" class="sg" align="center">
+            <img src="https://raw.githubusercontent.com/Subhash2807/test1/master/he%20(1).jpg">
+            <h1>LOGIN PAGE</h1><br>
+            <!-- <h2>Username</h2><br> -->
+            <input  name="username" placeholder="Username" type="text"><br><br>
+            <input name="password" type="password" placeholder="Password"><br><br>
+            <input type="checkbox"  id="check" valign="left"><p style="font-size:20px">Remember me</p><br>
+            <button onclick="clck()" >Login</button><br><br>
+            <a href="http://www.google.com">forget password?</a><br>
+        </div>
+    </body>
+</html>
+
+
+CSS CODE:
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: aqua;
+}
+#sg1
+{
+    height: 70vh;
+    width:50%;
+    background-color: rgb(106, 106, 211);
+    position: absolute;
+    left:50%;
+    top:45vh;
+    margin-top:-35vh;
+    margin-left:-25%;
+    border:15px solid rgba(61, 16, 185, 0.863);
+    border-radius:50px;
+
+   
+}
+input {
+    height: 6vh;
+    color:red;
+  text-align:center;
+    width:85%;
+    font-size:4vw;
+    border-radius:20px;
+}
+img:hover{
+    opacity: 1;
+
+    
+}
+img {
+    border-radius:50%;
+    height:26vh;
+    width:40%;
+    position: absolute;
+    left:50%;
+    margin-left:-18%;
+    margin-top:-15vh;
+    opacity:0.9;
+
+}
+h1{
+    margin-top:12vh;
+    /* font-size: 5vw; */
+    
+    
+    color:rgba(206, 19, 19, 0.918);
+    text-decoration-style: solid;
+    font-style:bold;
+}
+
+::placeholder {
+    color:red;
+    text-align:center;
+    font-size:3.5vw;
+    margin: 0 auto;
+    opacity:0.4;
+}
+button{
+    height:8vh;
+    width:30%;
+    font-size:3vw;
+    background-color: red;
+    border:3px rgb(66, 2, 2) solid;
+}
+button:hover
+{
+    height:6.5vh;
+    width:31%;
+}
+a:link{
+color:yellow;
+    /* font-size:4vw; */
+    background-color: transparent;
+   
+}
+#check
+{
+        height: 4vh;
+}
+@media screen and (min-width: 1000px) {
+    h1 {
+      font-size: 60px;
+    }
+    ::placeholder{
+        font-size:40px
+          margin-top:-10px;
+    }
+    a:link {
+        font-size:30px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    h1 {
+      font-size: 30px;
+    }
+    ::placeholder{
+        font-size:30px
+    }
+    a:link {
+        font-size:20px;
+    }
+  }
+
