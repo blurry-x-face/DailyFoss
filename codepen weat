@@ -1,0 +1,120 @@
+https://codepen.io/lav_joshi1056/pen/vYYaOOa
+
+<html>
+    <head>
+       <title>Weather</title>
+       <link rel="stylesheet" href="Weather.css">
+       </head>
+       <body>
+           <p class="cool">WEATHER REPORT OF A CITY</p>
+           <div id="searchcontainer">
+               <input style="font-size:40px;" class="searchcontrol" type="text" placeholder="City Name " id="searchinput" type="text">
+               <button style="font-size:40px;"class="searchcontrol" id="searchbtn" value="submit">Search</button>
+           </div>
+           <div id="weathercontainer">
+                <div id="weatherdescription">
+                    <h1 id="cityheader"></h1>
+                        <div id="weathermain">
+                        <div id="temperature"></div>
+                        <div id="weatherdescriptionheader"></div>
+                    
+                    </div>
+                    <hr>
+                    <div id="windspeed" class="bottomdetails"></div>
+            <div id="humidity" class="bottomdetails"></div>
+            </div>
+           </div>
+
+       <script src="Weather.js"></script>
+
+       </Body>
+</html>
+
+
+
+css 
+
+
+body{
+
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding:0px;
+    margin:0px;
+    font-size:40px;
+    align-items: center;
+    background-color: #dbb8b8;
+}
+#searchcontainer
+{
+    padding:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+    align-items:center;
+
+}
+#weathercontainer
+{
+    background-color: #dbb8b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cool
+{
+    display:flex;
+    justify-content: center;
+    padding:3px;
+}
+
+
+
+
+js
+
+let appid='3a25aaa35683da1bc5218a64b2d53155';
+let units="Imperial";
+let searchmethod;
+
+function getsearchmethod(searchterm){
+    if(searchterm.length===5   && Number.parseInt(searchterm)+' '===searchterm)
+     searchmethod='zip';
+     else
+     searchmethod='q';  
+}
+
+function searchweather(searchterm)
+{ 
+      getsearchmethod(searchterm);
+    fetch(`http://api.openweathermap.org/data/2.5/weather?${searchmethod}=${searchterm}&APPID=${appid}&units=${units}`).then(result => {
+        return result.json();
+    }).then(result => {
+    init(result);
+    })
+}
+
+function init(resultfromserver){
+    let weatherdescriptionheader=document.getElementById('weatherdescriptionheader');
+    let temperatureelement=document.getElementById('temperature');
+    let humdityelement=document.getElementById('humidity');
+    let cityheader=document.getElementById('cityheader');
+     
+    
+
+    let resultdescription=resultfromserver.weather[0].description;
+    weatherdescriptionheader.innerText=resultdescription.charAt(0).toUpperCase()+resultdescription.slice(1);
+
+    temperatureelement.innerHTML=Math.floor(resultfromserver.main.temp)+' F'
+    cityheader.innerHTML=resultfromserver.name;
+    humdityelement.innerHTML='humidity elements at '+ resultfromserver.main.humidity+ ' %';
+}
+
+
+
+document.getElementById('searchbtn').addEventListener('click',()=>{
+     let searchterm=document.getElementById('searchinput').value;
+    if(searchterm)
+     searchweather(searchterm);
+})
