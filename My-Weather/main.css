@@ -1,0 +1,85 @@
+* {
+  background-image: url("https://wallpaperaccess.com/full/701802.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name{
+  text-align: center;
+  font-size: 9vw;
+  color: grey;
+  margin: 4vw 0vw 8.5vw 0vw; 
+}
+
+.input{
+  text-align: center;
+}
+
+#city{
+  text-align: center;
+  width: 45%;
+  height: 3vw;
+  font-size: 2vw;
+  background: #30829025;
+  margin-right: 3vw;
+  border-radius: 1vw;
+  border: none;
+  outline: none;
+  border: 0.2vw solid #30829025;
+}
+
+#btn{
+  text-align: center;
+  height: 3.3vw;
+  width: 20%;
+  font-size: 2vw;
+  background: #30829025;
+  border-radius: 0.8vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 0.2vw solid #30829025;
+  box-shadow: 0.25vw 0.25vw grey;
+}
+
+#city:hover{
+  border: 0.15vw inset white;
+  outline: none;
+}
+
+#btn:hover{
+  border: 0.15vw outset white;
+  outline: none;
+}
+
+#city:active{
+  background: white;
+  outline: none
+}
+
+#city:visited{
+  outline: none;
+}
+
+#btn:active{
+  background: white;
+  outline: none
+}
+
+#btn:visited{
+  outline: none;
+}
+
+.weather{
+  max-width: 60%;
+  margin: auto;
+  padding: 1.5vw;
+  background: none;
+  text-align: center;
+  font-size: 2vw;
+  color:burlywood;
+}
+
+.temprature,.humid{
+    background: none;
+}

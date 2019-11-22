@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">UI</title>
+    </head>
+    <style>
+        #bd{
+            background-image: url(https://i.pinimg.com/originals/0e/48/3f/0e483f808ad06b1bf4f140b7148668e8.png);
+            background-size: cover;
+        }
+        .di{
+            background-color: burlywood;
+            position: absolute;
+            height:600px;
+            width: 420px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        input[type=text]{
+           
+            background-color:  burlywood;
+            position:absolute;
+            outline: none;
+            top:47%;
+            color: rgb(43, 104, 127);
+            left: 9.5%;
+            width: 80%;
+            padding: 8px 0;
+            border:none;
+            border-bottom: 2px solid rgb(16, 85, 107);
+            font-size: 20px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+  transition: 0.5s;
+        }
+        input[type=password]{ 
+            background-color:  burlywood;
+            position:absolute;
+            outline: none;
+            top:60%;
+            color: rgb(43, 104, 127);
+            left: 9.5%;
+            width: 80%;
+            padding: 8px 0;
+            border:none;
+            border-bottom: 2px solid rgb(16, 85, 107);
+            font-size: 20px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+        }
+        input[type=password]:hover{border-bottom-color: antiquewhite;}
+        input[type=text]:hover{border-bottom-color: antiquewhite;}
+        button[type=submit]{
+            position: absolute;
+            width:20%;
+            top:75%;
+            left:37%;
+            font-size: 17px;
+            padding:6px 0;
+            border:none;
+            border-radius:10px;
+            background:linear-gradient(to right, rgb(88,112,86),rgb(127,152,71) );
+            cursor: pointer;
+        }
+
+        #sp{position: absolute;
+        top:89%;
+        left: 9.5%; 
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;  
+        color:  rgb(16, 85, 107);
+        }
+        #span{
+            color:rgb(37, 119, 69);
+            font-size: 20px;
+        }
+    </style>
+    <body id="bd" >
+        <div class="di">
+            <image style="background-color: burlywood;width:120px;position: absolute;left:35%;top:15%" src="https://i.pinimg.com/originals/15/6d/f3/156df304c6ffc6f3affbd5f78f722c4e.png">
+                <form>
+                    <input type="text" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button type="submit" value="login">LOGIN</button>
+                </form>
+                <span id="sp" style="cursor: context-menu; ">Don't have an account? <span id="span" style="cursor: pointer;">Sign Up</span></span>
+        </div>
+
+    </body>
+    </html>
+
+
+</html>

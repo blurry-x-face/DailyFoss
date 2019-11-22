@@ -1,0 +1,110 @@
+body
+{
+	 
+	font-family:'Oswald',sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+    max-width:100%;
+	background-color:#edf0ee;
+	background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQB83Pue64Tbd-3o3TROd1VEvpUc376Ok-374zjyFPQ00JqoXAI');
+	
+}
+#wrapper
+{ max-width:100%;
+background-color:#edf0ee;
+ width:1000px;
+height:550px;
+margin:20px auto;
+background-repeat: no-repeat;
+	background-size: cover;
+	  box-sizing: border-box;
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS31yG6mc52B67Agkcqlr8w4GXF-Wqr5YSgKzrNUbYBfIC8XIUA');	  
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity:0.8;
+	  box-sizing: border-box;
+	  max-width:100%;
+	  
+}
+
+#result{
+	height: 120px;
+	background-color:#a2c4fa;
+	  box-sizing: border-box;
+	  max-width:100%;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+	  box-sizing: border-box;
+	  max-width:100%;
+}
+#output{
+	text-align: right;
+	height: 100px;
+	margin: 10px 20px;
+	font-size: 30px;
+	  box-sizing: border-box;
+	  max-width:100%;
+}
+#output-value
+{
+	height:40px;
+	width:270px;
+	border:solid;
+	font-size:30px;
+	font-family:'Oswald',sans-serif;
+	text-align:right;
+	  box-sizing: border-box;
+	  max-width:100%;
+}	
+#keyboard{
+	height: 400px;
+		background-color:#eb6edb;
+		  box-sizing: border-box;
+		  max-width:100%;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+	  box-sizing: border-box;
+}
+.number, .empty{
+	background-color: #eaedef !important;
+	  box-sizing: border-box;
+}
+.number, .operator{
+	cursor: pointer;
+	  box-sizing: border-box;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+	  box-sizing: border-box;
+	
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+	  box-sizing: border-box;
+}
+#%{
+	background-color:#eb4034;
+	
+  }
+	

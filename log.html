@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">UI</title>
+                <style>
+        .bd{
+            background-image: url(https://media.istockphoto.com/photos/background-of-simple-pencils-on-the-left-right-side-for-your-picture-id1048711038);
+            background-size: cover;
+        }
+        .di{
+            background-color: hsl(34, 60%, 68%);
+            position: absolute;
+            height:600px;
+            width: 420px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        input[type=text]{
+           
+            background-color:  hsl(34, 60%, 68%);
+            position:absolute;
+            outline: none;
+            top:47%;
+            color: rgb(43, 104, 127);
+            left: 9.5%;
+            width: 80%;
+            padding: 8px 0;
+            border:none;
+            border-bottom: 2px solid rgb(16, 85, 107);
+            font-size: 20px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+  transition: 0.5s;
+        }
+        input[type=password]{ 
+            background-color:  hsl(34, 60%, 68%);
+            position:absolute;
+            outline: none;
+            top:60%;
+            color: rgb(43, 104, 127);
+            left: 9.5%;
+            width: 80%;
+            padding: 8px 0;
+            border:none;
+            border-bottom: 2px solid rgb(16, 85, 107);
+            font-size: 20px;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+        }
+        input[type=password]:hover{border-bottom-color: antiquewhite;}
+        input[type=text]:hover{border-bottom-color: antiquewhite;}
+        button[type=submit]{
+            position: absolute;
+            width:20%;
+            top:75%;
+            left:37%;
+            font-size: 17px;
+            padding:6px 0;
+            border:none;
+            border-radius:10px;
+            background:linear-gradient(to right, rgb(88,112,86),rgb(127,152,71) );
+            cursor: pointer;
+        }
+
+        #sp{position: absolute;
+        top:89%;
+        left: 9.5%; 
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;  
+        color:  rgb(16, 85, 107);
+        }
+        #span{
+            color:rgb(37, 119, 69);
+            font-size: 20px;
+        }
+    </style>
+    </head>
+  <body class="bd" style=" background-image: url(https://media.istockphoto.com/photos/background-of-simple-pencils-on-the-left-right-side-for-your-picture-id1048711038);
+            background-size: cover;" >
+        <div class="di">
+            <image style="background-color: hsl(34, 60%, 68%) ;width:120px;position: absolute;left:35%;top:15%" src="https://login.gov/assets/img/login-gov-600x314.png">
+                <form>
+                    <input type="text" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button type="submit" value="login">LOGIN</button>
+                </form>
+                <span id="sp" style="cursor: context-menu; ">Don't have an account? <span id="span" style="cursor: pointer;">Sign Up</span></span>
+        </div>
+
+    </body>
+    </html>
+
+
+</html>

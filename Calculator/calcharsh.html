@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcharsh.css">
+    <script language="javascript">
+    {
+      function calc(val) {
+                document.getElementById('calculator').value += val;
+            }
+            function result() {
+                var x = eval(document.getElementById('calculator').value);
+                document.getElementById('calculator').value = x;
+
+            }
+            function cler() {
+                document.getElementById('calculator').value = '';
+            }
+             
+            
+    }</script>
+</head>
+
+<body>
+
+    <div class="container">
+        <form name="form">
+            <div class="display">
+                <input type="text" placeholder="0" id="calculator" />
+            </div>
+            <div class="buttons">
+                <div class="row">
+                <input type="button" name="AC" value="AC"onClick="cler()">
+                <input type="button" name="%" value="%" onClick="calc('%')">
+                <input type="button" name="(" value="(" onclick="calc('(')">
+                <input type="button" name=")" value=")" onclick="calc(')')">
+                </div>
+                <div class="row">
+                    <input type="button" name="b7" value="7" onClick="calc(b7.value)">
+                    <input type="button" name="b8" value="8" onClick="calc(b8.value)">
+                    <input type="button" name="b9" value="9" onClick="calc(b9.value)">
+                    <input type="button" name="addb" value="+" onClick="calc(addb.value)">
+                </div>
+
+                <div class="row">
+                    <input type="button" name="b4" value="4" onClick="calc(b4.value)">
+                    <input type="button" name="b5" value="5" onClick="calc(b5.value)">
+                    <input type="button" name="b6" value="6" onClick="calc(b6.value)">
+                    <input type="button" name="subb" value="-" onClick="calc(subb.value)">
+                </div>
+
+                <div class="row">
+                    <input type="button" name="b1" value="1" onClick="calc(b1.value)">
+                    <input type="button" name="b2" value="2" onClick="calc(b2.value)">
+                    <input type="button" name="b3" value="3" onClick="calc(b3.value)">
+                    <input type="button" name="mulb" value="*" onClick="calc(mulb.value)">
+                </div>
+
+                <div class="row">
+                    <input type="button" name="b0" value="0" onClick="calc(b0.value)">
+                    <input type="button" name="potb" value="." onClick="calc(potb.value)">
+                    <input type="button" name="divb" value="/" onClick="calc(divb.value)">
+                    <input type="button" class="red" value="=" onClick="result()">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
