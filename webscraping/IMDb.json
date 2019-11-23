@@ -1,0 +1,602 @@
+[
+    {
+      "Movie Name": "The Shawshank Redemption",
+      "Rating": "9.3",
+      "Director": "Frank Darabont",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Godfather",
+      "Rating": "9.2",
+      "Director": "Francis Ford Coppola",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Dark Knight",
+      "Rating": "9.0",
+      "Director": "Christopher Nolan",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Godfather: Part II",
+      "Rating": "9.0",
+      "Director": "Francis Ford Coppola",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Lord of the Rings: The Return of the King",
+      "Rating": "8.9",
+      "Director": "Peter Jackson",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Pulp Fiction",
+      "Rating": "8.9",
+      "Director": "Quentin Tarantino",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Schindler's List",
+      "Rating": "8.9",
+      "Director": "Steven Spielberg",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "12 Angry Men",
+      "Rating": "8.9",
+      "Director": "Sidney Lumet",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Joker",
+      "Rating": "8.8",
+      "Director": "Todd Phillips",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Fight Club",
+      "Rating": "8.8",
+      "Director": "David Fincher",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Lord of the Rings: The Fellowship of the Ring",
+      "Rating": "8.8",
+      "Director": "Peter Jackson",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Forrest Gump",
+      "Rating": "8.8",
+      "Director": "Robert Zemeckis",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Lord of the Rings: The Two Towers",
+      "Rating": "8.7",
+      "Director": "Peter Jackson",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Goodfellas",
+      "Rating": "8.7",
+      "Director": "Martin Scorsese",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "One Flew Over the Cuckoo's Nest",
+      "Rating": "8.7",
+      "Director": "Milos Forman",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Harakiri",
+      "Rating": "8.7",
+      "Director": "Masaki Kobayashi",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Parasite",
+      "Rating": "8.6",
+      "Director": "Bong Joon Ho",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Drishyam",
+      "Rating": "8.6",
+      "Director": "Jeethu Joseph",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Interstellar",
+      "Rating": "8.6",
+      "Director": "Christopher Nolan",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "City of God",
+      "Rating": "8.6",
+      "Director": "Fernando Meirelles",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Saving Private Ryan",
+      "Rating": "8.6",
+      "Director": "Steven Spielberg",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Green Mile",
+      "Rating": "8.6",
+      "Director": "Frank Darabont",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Life Is Beautiful",
+      "Rating": "8.6",
+      "Director": "Roberto Benigni",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Se7en",
+      "Rating": "8.6",
+      "Director": "David Fincher",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Silence of the Lambs",
+      "Rating": "8.6",
+      "Director": "Jonathan Demme",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Seven Samurai",
+      "Rating": "8.6",
+      "Director": "Akira Kurosawa",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "It's a Wonderful Life",
+      "Rating": "8.6",
+      "Director": "Frank Capra",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Avengers: Endgame",
+      "Rating": "8.5",
+      "Director": "Anthony Russo",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Whiplash",
+      "Rating": "8.5",
+      "Director": "Damien Chazelle",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Intouchables",
+      "Rating": "8.5",
+      "Director": "Olivier Nakache",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Prestige",
+      "Rating": "8.5",
+      "Director": "Christopher Nolan",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Departed",
+      "Rating": "8.5",
+      "Director": "Martin Scorsese",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Pianist",
+      "Rating": "8.5",
+      "Director": "Roman Polanski",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Gladiator",
+      "Rating": "8.5",
+      "Director": "Ridley Scott",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "American History X",
+      "Rating": "8.5",
+      "Director": "Tony Kaye",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Léon: The Professional",
+      "Rating": "8.5",
+      "Director": "Luc Besson",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Lion King",
+      "Rating": "8.5",
+      "Director": "Roger Allers",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Cinema Paradiso",
+      "Rating": "8.5",
+      "Director": "Giuseppe Tornatore",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Grave of the Fireflies",
+      "Rating": "8.5",
+      "Director": "Isao Takahata",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Casablanca",
+      "Rating": "8.5",
+      "Director": "Michael Curtiz",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Great Dictator",
+      "Rating": "8.5",
+      "Director": "Charles Chaplin",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Modern Times",
+      "Rating": "8.5",
+      "Director": "Charles Chaplin",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "City Lights",
+      "Rating": "8.5",
+      "Director": "Charles Chaplin",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Capernaum",
+      "Rating": "8.4",
+      "Director": "Nadine Labaki",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Your Name.",
+      "Rating": "8.4",
+      "Director": "Makoto Shinkai",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Dangal",
+      "Rating": "8.4",
+      "Director": "Nitesh Tiwari",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Django Unchained",
+      "Rating": "8.4",
+      "Director": "Quentin Tarantino",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "3 Idiots",
+      "Rating": "8.4",
+      "Director": "Rajkumar Hirani",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Taare Zameen Par",
+      "Rating": "8.4",
+      "Director": "Aamir Khan",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "The Lives of Others",
+      "Rating": "8.4",
+      "Director": "Florian Henckel von Donnersmarck",
+      "Year of release": "1994"
+    },
+    {
+      "Movie Name": "Oldboy",
+      "Rating": "8.4",
+      "Director": "Chan-wook Park",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Once Upon a Time in America",
+      "Rating": "8.4",
+      "Director": "Sergio Leone",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Shining",
+      "Rating": "8.4",
+      "Director": "Stanley Kubrick",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Apocalypse Now",
+      "Rating": "8.4",
+      "Director": "Francis Ford Coppola",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Witness for the Prosecution",
+      "Rating": "8.4",
+      "Director": "Billy Wilder",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Paths of Glory",
+      "Rating": "8.4",
+      "Director": "Stanley Kubrick",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Sunset Blvd.",
+      "Rating": "8.4",
+      "Director": "Billy Wilder",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Hunt",
+      "Rating": "8.3",
+      "Director": "Thomas Vinterberg",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Ford v Ferrari",
+      "Rating": "8.3",
+      "Director": "James Mangold",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "A Separation",
+      "Rating": "8.3",
+      "Director": "Asghar Farhadi",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Incendies",
+      "Rating": "8.3",
+      "Director": "Denis Villeneuve",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "My Father and My Son",
+      "Rating": "8.3",
+      "Director": "Çagan Irmak",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Inglourious Basterds",
+      "Rating": "8.3",
+      "Director": "Quentin Tarantino",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Eternal Sunshine of the Spotless Mind",
+      "Rating": "8.3",
+      "Director": "Michel Gondry",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Requiem for a Dream",
+      "Rating": "8.3",
+      "Director": "Darren Aronofsky",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "American Beauty",
+      "Rating": "8.3",
+      "Director": "Sam Mendes",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Good Will Hunting",
+      "Rating": "8.3",
+      "Director": "Gus Van Sant",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Children of Heaven",
+      "Rating": "8.3",
+      "Director": "Majid Majidi",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Bandit",
+      "Rating": "8.3",
+      "Director": "Yavuz Turgul",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Braveheart",
+      "Rating": "8.3",
+      "Director": "Mel Gibson",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Reservoir Dogs",
+      "Rating": "8.3",
+      "Director": "Quentin Tarantino",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Full Metal Jacket",
+      "Rating": "8.3",
+      "Director": "Stanley Kubrick",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Come and See",
+      "Rating": "8.3",
+      "Director": "Elem Klimov",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Amadeus",
+      "Rating": "8.3",
+      "Director": "Milos Forman",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Scarface",
+      "Rating": "8.3",
+      "Director": "Brian De Palma",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Das Boot",
+      "Rating": "8.3",
+      "Director": "Wolfgang Petersen",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Taxi Driver",
+      "Rating": "8.3",
+      "Director": "Martin Scorsese",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Sting",
+      "Rating": "8.3",
+      "Director": "George Roy Hill",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "A Clockwork Orange",
+      "Rating": "8.3",
+      "Director": "Stanley Kubrick",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "To Kill a Mockingbird",
+      "Rating": "8.3",
+      "Director": "Robert Mulligan",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Lawrence of Arabia",
+      "Rating": "8.3",
+      "Director": "David Lean",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Apartment",
+      "Rating": "8.3",
+      "Director": "Billy Wilder",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Ikiru",
+      "Rating": "8.3",
+      "Director": "Akira Kurosawa",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Bicycle Thieves",
+      "Rating": "8.3",
+      "Director": "Vittorio De Sica",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Double Indemnity",
+      "Rating": "8.3",
+      "Director": "Billy Wilder",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Citizen Kane",
+      "Rating": "8.3",
+      "Director": "Orson Welles",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Metropolis",
+      "Rating": "8.3",
+      "Director": "Fritz Lang",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Kid",
+      "Rating": "8.3",
+      "Director": "Charles Chaplin",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Green Book",
+      "Rating": "8.2",
+      "Director": "Peter Farrelly",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Three Billboards Outside Ebbing, Missouri",
+      "Rating": "8.2",
+      "Director": "Martin McDonagh",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Inside Out",
+      "Rating": "8.2",
+      "Director": "Pete Docter",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Gangs of Wasseypur",
+      "Rating": "8.2",
+      "Director": "Anurag Kashyap",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Secret in Their Eyes",
+      "Rating": "8.2",
+      "Director": "Juan José Campanella",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Warrior",
+      "Rating": "8.2",
+      "Director": "Gavin O'Connor",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "The Wolf of Wall Street",
+      "Rating": "8.2",
+      "Director": "Martin Scorsese",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Pan's Labyrinth",
+      "Rating": "8.2",
+      "Director": "Guillermo del Toro",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "V for Vendetta",
+      "Rating": "8.2",
+      "Director": "James McTeigue",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Rang De Basanti",
+      "Rating": "8.2",
+      "Director": "Rakeysh Omprakash Mehra",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Swades",
+      "Rating": "8.2",
+      "Director": "Ashutosh Gowariker",
+      "Year of release": "2003"
+    },
+    {
+      "Movie Name": "Downfall",
+      "Rating": "8.2",
+      "Director": "Oliver Hirschbiegel",
+      "Year of release": "2003"
+    }
+  ]
