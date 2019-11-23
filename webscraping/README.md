@@ -15,6 +15,7 @@ movie={}        // declared an object that will temporarily hold info to be fed 
 
 for(i=1;i<=50;i++){
     var movie={}
+    
     movie["Movie Name"]=document.querySelector("#main > div > div.lister.list.detail.sub-list > div > div:nth-child("+i+") > div.lister-item-content > h3 > a").innerText       // when I copied the address, it had "(1)" in place of "("+i+")" this modification was done so than when the loop further iterates every movie in the list gets picked same modification was done for all four entries
     
     movie["Rating"]=document.querySelector("#main > div > div.lister.list.detail.sub-list > div > div:nth-child("+i+") > div.lister-item-content > div > div.inline-block.ratings-imdb-rating > strong").innerText
