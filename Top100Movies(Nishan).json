@@ -1,0 +1,604 @@
+{
+    
+      
+     "Movie_#1": {
+       "MovieName": "The Shawshank Redemption",
+       "imdbRating": "9.3",
+       "Producer": "Frank Darabont",
+       "ReleaseYear": "1994"
+     },
+     "Movie_#2": {
+       "MovieName": "The Godfather",
+       "imdbRating": "9.2",
+       "Producer": "Francis Ford Coppola",
+       "ReleaseYear": "1972"
+     },
+     "Movie_#3": {
+       "MovieName": "The Dark Knight",
+       "imdbRating": "9.0",
+       "Producer": "Christopher Nolan",
+       "ReleaseYear": "2008"
+     },
+     "Movie_#4": {
+       "MovieName": "The Godfather: Part II",
+       "imdbRating": "9.0",
+       "Producer": "Francis Ford Coopla",
+       "ReleaseYear": "1974"
+     },
+     "Movie_#5": {
+       "MovieName": "The Lord of the Rings: The Return of the King",
+       "imdbRating": "8.9",
+       "Producer": "Peter Jackson",
+       "ReleaseYear": "2003"
+     },
+     "Movie_#6": {
+        "MovieName": "Pilp Fiction",
+        "imdbRating": "8.9",
+        "Producer": "Quentin Tarantino",
+        "ReleaseYear": "1994"
+      },
+      "Movie_#7": {
+        "MovieName": "Schindler's List",
+        "imdbRating": "8.9",
+        "Producer": "Steven Spielberg",
+        "ReleaseYear": "1993"
+      },
+      "Movie_#8": {
+        "MovieName": "12 Angry Men",
+        "imdbRating": "8.9",
+        "Producer": "Sidney Lumet",
+        "ReleaseYear": "1957"
+      },
+      "Movie_#9": {
+        "MovieName": "Joker",
+        "imdbRating": "8.8",
+        "Producer": "Todd Philips",
+        "ReleaseYear": "2019"
+      },
+      "Movie_#10": {
+        "MovieName": "Fight Club",
+        "imdbRating": "8.8",
+        "Producer": "David Fincher",
+        "ReleaseYear": "1999"
+      },
+      "Movie_#11": {
+        "MovieName": "The Lord of the Rings: The Fellowship of the Ring",
+        "imdbRating": "8.8",
+        "Producer": "Peter Jackson",
+        "ReleaseYear": "2001"
+      },
+      "Movie_#12": {
+        "MovieName": "Forest Gump",
+        "imdbRating": "8.8",
+        "Producer": "Robert Zemeckis",
+        "ReleaseYear": "1994"
+      },
+      "Movie_#13": {
+        "MovieName": "The Lord of the Rings: The Two Towers",
+        "imdbRating": "8.7",
+        "Producer": "Peter Jackson",
+        "ReleaseYear": "2002"
+      },
+      "Movie_#14": {
+        "MovieName": "Godfellas",
+        "imdbRating": "8.7",
+        "Producer": "Martin Scorsese",
+        "ReleaseYear": "1990"
+      },
+      "Movie_#15": {
+        "MovieName": "One Flew Over the Cuckoo's Nest",
+        "imdbRating": "8.7",
+        "Producer": "Milos Forman",
+        "ReleaseYear": "1975"
+      },
+      "Movie_#16": {
+        "MovieName": "Harakiri",
+        "imdbRating": "8.7",
+        "Producer": "Masaki Kobayashi",
+        "ReleaseYear": "1962"
+      },
+      "Movie_#17": {
+        "MovieName": "Parasite",
+        "imdbRating": "8.6",
+        "Producer": "Bong Joon Ho",
+        "ReleaseYear": "2019"
+      },
+      "Movie_#18": {
+        "MovieName": "Drishyam",
+        "imdbRating": "8.6",
+        "Producer": "Jeethu Joseph",
+        "ReleaseYear": "2013"
+      },
+      "Movie_#19": {
+        "MovieName": "Interstellar",
+        "imdbRating": "8.6",
+        "Producer": "Christopher Nolan",
+        "ReleaseYear": "2014"
+      },
+      "Movie_#20": {
+        "MovieName": "City of God",
+        "imdbRating": "8.6",
+        "Producer": "Fernando Meirelles, Katia Lund",
+        "ReleaseYear": "2008"
+      },
+      "Movie_#21": {
+        "MovieName": "Saving Private Ryan",
+        "imdbRating": "8.6",
+        "Producer": "Steven Spielberg",
+        "ReleaseYear": "1998"
+      },
+      "Movie_#22": {
+        "MovieName": "The Green Mile",
+        "imdbRating": "8.6",
+        "Producer": "Frank Darabont",
+        "ReleaseYear": "1999"
+      },
+      "Movie_#23": {
+        "MovieName": "Life Is Beautiful",
+        "imdbRating": "8.6",
+        "Producer": "Roberto Benigni",
+        "ReleaseYear": "1997"
+      },
+      "Movie_#24": {
+        "MovieName": "Seven",
+        "imdbRating": "8.6",
+        "Producer": "David Fincher",
+        "ReleaseYear": "1995"
+      },
+      "Movie_#25": {
+        "MovieName": "The Silence of the Lambs",
+        "imdbRating": "8.6",
+        "Producer": "Jonathan Demme",
+        "ReleaseYear": "1991"
+      },
+      "Movie_#26": {
+        "MovieName": "Seven Samurai",
+        "imdbRating": "8.6",
+        "Producer": "Akira Kurosawa",
+        "ReleaseYear": "1954"
+      },
+      "Movie_#27": {
+        "MovieName": "It's a Wonderful Life",
+        "imdbRating": "8.6",
+        "Producer": "Frank Capra",
+        "ReleaseYear": "1946"
+      },
+      "Movie_#28": {
+        "MovieName": "Avengers: Endgame",
+        "imdbRating": "8.5",
+        "Producer": "Anthony Russo, Joe Russo",
+        "ReleaseYear": "2019"
+      },
+      "Movie_#29": {
+        "MovieName": "Whiplash",
+        "imdbRating": "8.5",
+        "Producer": "Damien Chazelle",
+        "ReleaseYear": "2014"
+      },
+      "Movie_#30": {
+        "MovieName": "Untouchable",
+        "imdbRating": "8.5",
+        "Producer": "Olivier Nakache, Éric Toledano",
+        "ReleaseYear": "2011"
+      },
+      "Movie_#31": {
+        "MovieName": "The Prestige",
+        "imdbRating": "8.5",
+        "Producer": "Christopher Nolan",
+        "ReleaseYear": "2006"
+      },
+      "Movie_#32": {
+        "MovieName": "The Departed",
+        "imdbRating": "8.5",
+        "Producer": "Martin Scorsese",
+        "ReleaseYear": "2006"
+      },
+      "Movie_#33": {
+        "MovieName": "The Pianist",
+        "imdbRating": "8.5",
+        "Producer": "Roman Polanski",
+        "ReleaseYear": "2002"
+      },
+      "Movie_#34": {
+        "MovieName": "Gladiator",
+        "imdbRating": "8.5",
+        "Producer": "Ridley Scott",
+        "ReleaseYear": "2000"
+      },
+      "Movie_#35": {
+        "MovieName": "American History X",
+        "imdbRating": "8.5",
+        "Producer": "Tony Kaye",
+        "ReleaseYear": "1998"
+      },
+      "Movie_#36": {
+        "MovieName": "Leon",
+        "imdbRating": "8.5",
+        "Producer": "Luc Besson",
+        "ReleaseYear": "1994"
+      },
+      "Movie_#37": {
+        "MovieName": "The Lion King",
+        "imdbRating": "8.5",
+        "Producer": "Roger Allers, Rob Minkoff",
+        "ReleaseYear": "1994"
+      },
+      "Movie_#38": {
+        "MovieName": "Cinema Paradiso",
+        "imdbRating": "8.5",
+        "Producer": "Guiseppe Tornatore",
+        "ReleaseYear": "1998"
+      },
+      "Movie_#39": {
+        "MovieName": "Grave of the Fireflies",
+        "imdbRating": "8.5",
+        "Producer": "Isao Takahata",
+        "ReleaseYear": "1988"
+      },
+      "Movie_#40": {
+        "MovieName": "Casablanca",
+        "imdbRating": "8.5",
+        "Producer": "Michael Curtiz",
+        "ReleaseYear": "1942"
+      },
+      "Movie_#41": {
+        "MovieName": "The Great Dictator",
+        "imdbRating": "8.5",
+        "Producer": "Charles Chaplin",
+        "ReleaseYear": "1940"
+      },
+      "Movie_#42": {
+        "MovieName": "Modern Times",
+        "imdbRating": "8.5",
+        "Producer": "Charles Chaplin",
+        "ReleaseYear": "1936"
+      },
+      "Movie_#43": {
+        "MovieName": "City Lights",
+        "imdbRating": "8.5",
+        "Producer": "Charles Chaplin",
+        "ReleaseYear": "1931"
+      },
+      "Movie_#44": {
+        "MovieName": "Capernaum",
+        "imdbRating": "8.4",
+        "Producer": "Nadine Labaski",
+        "ReleaseYear": "2018"
+      },
+      "Movie_#45": {
+        "MovieName": "Your Name",
+        "imdbRating": "8.4",
+        "Producer": "Makoto Shinkai",
+        "ReleaseYear": "2016"
+      },
+      "Movie_#46": {
+        "MovieName": "Dangal",
+        "imdbRating": "8.4",
+        "Producer": "Nitesh Tiwari",
+        "ReleaseYear": "2016"
+      },
+      "Movie_#47": {
+        "MovieName": "Django Hunter",
+        "imdbRating": "8.4",
+        "Producer": "Quentin Tarantino",
+        "ReleaseYear": "2012"
+      },
+      "Movie_#48": {
+        "MovieName": "3 Idiots",
+        "imdbRating": "8.4",
+        "Producer": "Rajkumar Hirani",
+        "ReleaseYear": "2011"
+      },
+      "Movie_#49": {
+        "MovieName": "Taare Zameen Par",
+        "imdbRating": "8.4",
+        "Producer": "Aamir Khan, Amole Gupte",
+        "ReleaseYear": "2011"
+      },
+      "Movie_#50": {
+        "MovieName": "The Lives of Others",
+        "imdbRating": "8.5",
+        "Producer": "",
+        "ReleaseYear": "2011"
+      },
+      "Movie_#51": {
+        "MovieName": "Oldboy",
+        "imdbRating": "8.4",
+        "Producer": "Chan-wook Park",
+        "ReleaseYear": "2003"
+      },
+      "Movie_#52": {
+        "MovieName": "Once Upon a Time in America",
+        "imdbRating": "8.4",
+        "Producer": "Sergio Leone",
+        "ReleaseYear": "1984"
+      },
+      "Movie_#53": {
+        "MovieName": "The Shining",
+        "imdbRating": "8.4",
+        "Producer": "Stanley Kubrich",
+        "ReleaseYear": "1980"
+      },
+      "Movie_#54": {
+        "MovieName": "Apocalypse Now",
+        "imdbRating": "8.4",
+        "Producer": "Francis Ford Coppola",
+        "ReleaseYear": "1979"
+      },
+      "Movie_#55": {
+        "MovieName": "Witness for the Prosecution",
+        "imdbRating": "8.4",
+        "Producer": "Bily Wilder",
+        "ReleaseYear": "1957"
+      },
+      "Movie_#56": {
+        "MovieName": "Paths of Glory",
+        "imdbRating": "8.4",
+        "Producer": "Stanley Kubrick",
+        "ReleaseYear": "1957"
+      },
+      "Movie_#57": {
+        "MovieName": "Sunset Blvd.",
+        "imdbRating": "8.4",
+        "Producer": "Billy Wilder",
+        "ReleaseYear": "1950"
+      },
+      "Movie_#58": {
+        "MovieName": "The Hunt",
+        "imdbRating": "8.3",
+        "Producer": "Thomas Vinterberg",
+        "ReleaseYear": "2012"
+      },
+      "Movie_#59": {
+        "MovieName": "Le Mans '66",
+        "imdbRating": "8.3",
+        "Producer": "James Mangold",
+        "ReleaseYear": "2019"
+      },
+      "Movie_#60": {
+        "MovieName": "A Separation",
+        "imdbRating": "8.3",
+        "Producer": "Asghar Farhadi",
+        "ReleaseYear": "2011"
+      },
+      "Movie_#61": {
+        "MovieName": "Incendies",
+        "imdbRating": "8.3",
+        "Producer": "Denis Villeneuve",
+        "ReleaseYear": "2010"
+      },
+      "Movie_#62": {
+        "MovieName": "My Father and My Son",
+        "imdbRating": "8.3",
+        "Producer": "Çagan Irmak",
+        "ReleaseYear": "2005"
+      },
+      "Movie_#63": {
+        "MovieName": "Inglourious Basterds",
+        "imdbRating": "8.3",
+        "Producer": "Quentin Tarantino",
+        "ReleaseYear": "2009"
+      },
+      "Movie_#64": {
+        "MovieName": "Eternal Sunshine of the Spotless Mind",
+        "imdbRating": "8.3",
+        "Producer": "Michel Gondry",
+        "ReleaseYear": "2004"
+      },
+      "Movie_#65": {
+        "MovieName": "Requiem for a Dream",
+        "imdbRating": "8.3",
+        "Producer": "Darren Aronofsky",
+        "ReleaseYear": "2000"
+      },
+      "Movie_#66": {
+        "MovieName": "American Beauty",
+        "imdbRating": "8.3",
+        "Producer": "Sam Mendes",
+        "ReleaseYear": "1999"
+      },
+      "Movie_#67": {
+        "MovieName": "Good Will Hunting",
+        "imdbRating": "8.3",
+        "Producer": "Gus Van Sant",
+        "ReleaseYear": "1997"
+      },
+      "Movie_#68": {
+        "MovieName": "Children of Heaven",
+        "imdbRating": "8.3",
+        "Producer": "Majid Majidi",
+        "ReleaseYear": "1997"
+      },
+      "Movie_#69": {
+        "MovieName": "The Bandit",
+        "imdbRating": "8.3",
+        "Producer": "Vavuz Turgul",
+        "ReleaseYear": "1996"
+      },
+      "Movie_#70": {
+        "MovieName": "Braveheart",
+        "imdbRating": "8.3",
+        "Producer": "Mel Gibson",
+        "ReleaseYear": "1995"
+      },
+      "Movie_#71": {
+        "MovieName": "Reservoir Dogs",
+        "imdbRating": "8.3",
+        "Producer": "Quentin Tarantino",
+        "ReleaseYear": "1992"
+      },
+      "Movie_#72": {
+        "MovieName": "Full Metal Jacket",
+        "imdbRating": "8.3",
+        "Producer": "Stanley Kubrich",
+        "ReleaseYear": "1987"
+      },
+      "Movie_#73": {
+        "MovieName": "Come and See",
+        "imdbRating": "8.3",
+        "Producer": "Elem Kilmov",
+        "ReleaseYear": "1985"
+      },
+      "Movie_#74": {
+        "MovieName": "Amadeus",
+        "imdbRating": "8.3",
+        "Producer": "Milos Forman",
+        "ReleaseYear": "1984"
+      },
+      "Movie_#75": {
+        "MovieName": "Surface",
+        "imdbRating": "8.3",
+        "Producer": "Brian De Palma",
+        "ReleaseYear": "1983"
+      },
+      "Movie_#76": {
+        "MovieName": "Das Boot",
+        "imdbRating": "8.3",
+        "Producer": "Wolfgang Peterson",
+        "ReleaseYear": "1981"
+      },
+      "Movie_#77": {
+        "MovieName": "Taxi Driver",
+        "imdbRating": "8.3",
+        "Producer": "Martin Scorsese",
+        "ReleaseYear": "1976"
+      },
+      "Movie_#78": {
+        "MovieName": "The Sting",
+        "imdbRating": "8.3",
+        "Producer": "Geirge Roy Hill",
+        "ReleaseYear": "1973"
+      },
+      "Movie_#79": {
+        "MovieName": "A Clockwork Orange",
+        "imdbRating": "8.3",
+        "Producer": "Stanley Kubrick",
+        "ReleaseYear": "1971"
+      },
+      "Movie_#80": {
+        "MovieName": "TO Kill A Mockingbird",
+        "imdbRating": "8.3",
+        "Producer": "Robert Mulligan",
+        "ReleaseYear": "1962"
+      },
+      "Movie_#81": {
+        "MovieName": "Lawrence of Arabia",
+        "imdbRating": "8.3",
+        "Producer": "Davil Lean",
+        "ReleaseYear": "1962"
+      },
+      "Movie_#82": {
+        "MovieName": "The Apartment",
+        "imdbRating": "8.3",
+        "Producer": "Billy Wilder",
+        "ReleaseYear": "1960"
+      },
+      "Movie_#83": {
+        "MovieName": "Ikiru",
+        "imdbRating": "8.3",
+        "Producer": "Akira Kurosawa",
+        "ReleaseYear": "1952"
+      },
+      "Movie_#84": {
+        "MovieName": "Bicycle Thieves",
+        "imdbRating": "8.3",
+        "Producer": "Vittorio Kurosawa",
+        "ReleaseYear": "1952"
+      },
+      "Movie_#85": {
+        "MovieName": "Double Indemnity",
+        "imdbRating": "8.3",
+        "Producer": "Billy Wilder",
+        "ReleaseYear": "1944"
+      },
+      "Movie_#86": {
+        "MovieName": "Citizen Kane",
+        "imdbRating": "8.3",
+        "Producer": "Orson Welles",
+        "ReleaseYear": "1941"
+      },
+      "Movie_#87": {
+        "MovieName": "Metropolis",
+        "imdbRating": "8.3",
+        "Producer": "Fritz Lang",
+        "ReleaseYear": "1927"
+      },
+      "Movie_#88": {
+        "MovieName": "The Kid",
+        "imdbRating": "8.3",
+        "Producer": "Charles Chaplin",
+        "ReleaseYear": "1921"
+      },
+      "Movie_#89": {
+        "MovieName": "Green Book",
+        "imdbRating": "8.2",
+        "Producer": "Peter Farrelly",
+        "ReleaseYear": "2018"
+      },
+      "Movie_#90": {
+        "MovieName": "Three Billboards Outside Ebbing, Missouri",
+        "imdbRating": "8.2",
+        "Producer": "Martin McDonagh",
+        "ReleaseYear": "2017"
+      },
+      "Movie_#91": {
+        "MovieName": "Onside Out",
+        "imdbRating": "8.2",
+        "Producer": "Pete Docter, Ronnie Del Carmen",
+        "ReleaseYear": ""
+      },
+      "Movie_#92": {
+        "MovieName": "Gangs of Wasseypur",
+        "imdbRating": "8.2",
+        "Producer": "Anurag Kashyap",
+        "ReleaseYear": "2012"
+      },
+      "Movie_#93": {
+        "MovieName": "The Secret in Their Eyes",
+        "imdbRating": "8.2",
+        "Producer": "Juan José Campanella",
+        "ReleaseYear": "2009"
+      },
+      "Movie_#94": {
+        "MovieName": "Warrior",
+        "imdbRating": "8.2",
+        "Producer": "Gavin O'Connor",
+        "ReleaseYear": "2011"
+      },
+      "Movie_#95": {
+        "MovieName": "The Wolf of Wall Street",
+        "imdbRating": "8.2",
+        "Producer": "Martin Scorsese",
+        "ReleaseYear": "2013"
+      },
+      "Movie_#96": {
+        "MovieName": "Pan's LabyNirth",
+        "imdbRating": "8.2",
+        "Producer": "Guillermo del Toro",
+        "ReleaseYear": "2006"
+      },
+      "Movie_#97": {
+        "MovieName": "V for Vendetta",
+        "imdbRating": "8.2",
+        "Producer": "James McTeigue",
+        "ReleaseYear": "2005"
+      },
+      "Movie_#98": {
+        "MovieName": "Rang De Basanti",
+        "imdbRating": "8.2",
+        "Producer": ":Rakeysh Omprakash Mehra",
+        "ReleaseYear": "2006"
+      },
+      "Movie_#99": {
+        "MovieName": "Swades",
+        "imdbRating": "8.2",
+        "Producer": "Ashutosh Gowariker",
+        "ReleaseYear": "2004"
+      },
+      "Movie_#100": {
+        "MovieName": "Downfall",
+        "imdbRating": "8.2",
+        "Producer": "Oliver Hirschbiegel",
+        "ReleaseYear": "2004"
+      }
+   }
